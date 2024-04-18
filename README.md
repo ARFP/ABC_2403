@@ -1,5 +1,9 @@
-# Dépôt commun DWWM/CDA
+# Dépôt commun ABC/DWWM/CDA
 
+**Groupe ABC 2403**
+
+- Date de début de formation : 25/03/2024
+- Date de fin de formation : 06/09/2024
 
 
 ## ABCDEV

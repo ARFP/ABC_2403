@@ -1,0 +1,10 @@
+# La boîte de conserve 
+
+Considérons le cas d’une boite de conserve pour laquelle nous définissons les opérations suivantes
+
+- Ouvrir la boite
+- Fermer la boite
+- Remplir la boite
+- Vider la boite
+
+**Rechercher les états possibles de la boîte de conserve**
