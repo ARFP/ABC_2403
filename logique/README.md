@@ -43,3 +43,5 @@ Soit :
 On peut alors écrire la formule suivante  :
 
 `P1 est vrai si P2 est vrai`
+
+`P1 = P2`
