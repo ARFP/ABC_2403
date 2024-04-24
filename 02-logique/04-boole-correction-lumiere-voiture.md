@@ -14,19 +14,26 @@ La lumière d'un véhicule s'éclaire si une des deux portes avant est ouverte (
 
 ### Propositions
 
-- P1 = 
-- P2 = 
-- P3 = 
-- P4 = 
+- P1 = La lumière est allumée
+- P2 = Porte droite ouverte
+- P3 = Porte gauche ouverte
+- P4 = Interrupteur appuyé 
 
 | Entrée | Entrée | Entrée |  | Sortie |
 | --- | --- | --- | --- | --- |
 | P2 | P3 | P4 | = | P1 |
-|  |  |  | = |  |
-|  |  |  | = |  |
-|  |  |  | = |  |
-|  |  |  | = |  |
-|  |  |  | = |  |
-|  |  |  | = |  |
-|  |  |  | = |  |
-|  |  |  | = |  |
+| 1 | 1 | 1 | = | 1 |
+| 0 | 0 | 0 | = | 0 |
+| 1 | 0 | 0 | = | 1 |
+| 0 | 1 | 0 | = | 1 |
+| 0 | 0 | 1 | = | 1 |
+| 1 | 1 | 0 | = | 1 |
+| 1 | 0 | 1 | = | 1 |
+| 0 | 1 | 1 | = | 1 |
+
+### Expression Boolèenne
+
+P1 est `VRAI` si P2 est `VRAI` ou P3 est `VRAI` ou P4 est `VRAI` 
+
+`P1 = P2 + P3 + P4`
+

@@ -36,18 +36,36 @@ Les propositions sont:
 | Entrée | Entrée | Entrée |  | Sortie |
 | --- | --- | --- | --- | --- |
 | P2 | P3 | P4 | = | P1 |
-|  |  |  | = |  |
-|  |  |  | = |  |
-|  |  |  | = |  |
-|  |  |  | = |  |
-|  |  |  | = |  |
-|  |  |  | = |  |
-|  |  |  | = |  |
-|  |  |  | = |  |
+| 0 | 0 | 0 | = | 0 |
+| 1 | 1 | 1 | = | 1 |
+| 1 | 0 | 0 | = | 0 |
+| 1 | 0 | 1 | = | 0 |
+| 1 | 1 | 0 | = | 0 |
+| 0 | 0 | 1 | = | 0 |
+| 0 | 1 | 0 | = | 0 |
 
 **Expression algébrique correspondante**
 
-``
+P1 est VRAI SI P3 est VRAI ET P4 est VRAI
+
+`P1 = P3 . P4`
+
+### Algorithme simplifié
+
+VARIABLES
+P1 est un BOOLEEN
+P3 est un BOOLEEN
+P4 est un BOOLEEN
+
+TRAITEMENT
+
+SI P3 est VRAI ET P4 est VRAI ALORS
+    ECRIRE 'La couleur est très claire'
+SINON
+    ECRIRE 'La couleur n'est pas très claire'
+
+
+RESULTAT
 
 
 ## B. Le résultat attendu est Cr = couleur claire. 
