@@ -33,20 +33,13 @@ public class App {
 		
 		prenom = "Mike"; // Affectation d'une valeur à la variable "prenom"
 		
-		System.out.println(prenom);
+		System.out.println(prenom); // Affiche "Mike"
 		
 		
 		prenom = "Toto"; // modification de la valeur de la variable "prenom"
 	
-		System.out.println("Bonjour " + prenom);
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println("Bonjour " + prenom); // Affiche "Bonjour toto"
+
 
 	}
 
