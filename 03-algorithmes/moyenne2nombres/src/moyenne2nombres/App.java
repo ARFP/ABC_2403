@@ -11,7 +11,6 @@ public class App {
 		float moyenne;
 		Scanner sc;
 		
-		
 		sc = new Scanner(System.in);
 		
 		System.out.println("Veuillez saisir un premier nombre: ");
@@ -22,7 +21,9 @@ public class App {
 		
 		nombre2 = sc.nextInt();
 		
-		moyenne = (nombre1 + nombre2) / 2.0F;
+		moyenne = (nombre1 + nombre2) / 2;
+		
+		System.out.println("");
 		
 		System.out.println("La moyenne de " + nombre1 + " et " + nombre2 + " est: " + moyenne);
 		
