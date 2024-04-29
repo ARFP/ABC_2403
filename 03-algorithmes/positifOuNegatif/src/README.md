@@ -7,28 +7,29 @@
 
 ## Algorithme
 
+``` 
 VARIABLES 
 
-nombreEntier est un ENTIER
+	nombreEntier est un ENTIER
 
 TRAITEMENT 
 
-ECRIRE "Saisissez un nombre entier"
+	ECRIRE "Saisissez un nombre entier"
 
-LIRE nombreEntier;
-
-
-SI nombreEntier >= 0 ALORS
-	ECRIRE "Ce nombre est positif"
-SINON ALORS
-	ECRIRE "Ce nombre est négatif"
-FIN SI
+	LIRE nombreEntier;
 
 
-SI nombreEntier < 0 ALORS
-	ECRIRE "Ce nombre est négatif"
-SINON
-	ECRIRE "Ce nombre est positif"
+	SI nombreEntier >= 0 ALORS
+		ECRIRE "Ce nombre est positif"
+	SINON ALORS
+		ECRIRE "Ce nombre est négatif"
+	FIN SI
 
+
+	SI nombreEntier < 0 ALORS
+		ECRIRE "Ce nombre est négatif"
+	SINON
+		ECRIRE "Ce nombre est positif"
+```
 	
 	
