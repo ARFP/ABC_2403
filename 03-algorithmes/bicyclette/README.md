@@ -62,7 +62,7 @@ livreDispoBibliotheque est un BOOLEEN
 				
 			FIN SI
 			
-			ECRIRE "je rentre chez moi"
+			ECRIRE "Je rentre chez moi"
 		SINON
 			ECRIRE "Je lis GoT"
 		FIN SI
