@@ -8,9 +8,17 @@ public class App {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		// VARIABLES
+		
+		
 		
 		System.out.println("Ma Bicyclette");
 
+		// TRAITEMENT
+		
+		
+		
+		// AFFICHAGE RESULTAT
 
 		sc.close();
 	}
