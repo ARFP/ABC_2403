@@ -6,9 +6,9 @@ public class DemoIfElse {
 	{
 		Boolean toto;
 		
-		toto = true;
+		toto = false;
 		
-		if(toto = true) {
+		if(!toto) {
 			System.out.println("OK");
 		} 
 		else {
