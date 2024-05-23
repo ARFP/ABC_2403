@@ -32,6 +32,9 @@ public class App {
 			case "exp":
 				new DemoExpressions();
 				break;
+			case "tableaux":
+				new DemoTableaux();
+				break;
 			case "exit":
 				System.out.println("Programme terminé ! ");
 				System.exit(0);
