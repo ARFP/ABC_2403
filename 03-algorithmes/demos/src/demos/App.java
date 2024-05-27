@@ -35,6 +35,9 @@ public class App {
 			case "tableaux":
 				new DemoTableaux();
 				break;
+			case "fonctions":
+				new DemoFonctions();
+				break;
 			case "exit":
 				System.out.println("Programme terminé ! ");
 				System.exit(0);
