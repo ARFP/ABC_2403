@@ -21,7 +21,7 @@ public class App {
 	}
 	
 	public static void selectionnerDemo(String nomDemo)
-	{
+	{		
 		switch(nomDemo) {
 			case "conditions":
 				new DemoIfElse();
@@ -34,9 +34,6 @@ public class App {
 				break;
 			case "tableaux":
 				new DemoTableaux();
-				break;
-			case "fonctions":
-				new DemoFonctions();
 				break;
 			case "exit":
 				System.out.println("Programme terminé ! ");
