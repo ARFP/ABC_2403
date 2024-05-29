@@ -2,6 +2,13 @@ package demoFonctions2;
 
 public class App 
 {
+
+	
+	public static void changerValeur(Toto tata)
+	{
+		tata.a = 30;
+	}
+	
 	public static void main(String[] args) 
 	{
 		Toto toto = new Toto();		
@@ -11,10 +18,5 @@ public class App
 		App.changerValeur(toto);
 		
 		System.out.println(toto.a);
-	}
-	
-	public static void changerValeur(Toto tata)
-	{
-		tata.a = 30;
 	}
 }

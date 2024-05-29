@@ -4,22 +4,22 @@ public class App {
 
 	public static void main(String[] args) {
 
-
 		// Ecrire une PROCEDURE qui calcule et affiche le périmètre d'un triangle
 		
-		int a = 20;
-		int b = 30;
-		int c = 40;
+		int a = 20; // Coté 1 du triangle
+		int b = 30; // Coté 2 du triangle
+		int c = 40; // Coté 3 du triangle
 		
+		// Appel de la fonction calculerPerimetreTriangle
 		App.calculerPerimetreTriangle(a, b, c);
 		
-		// Le programme doit afficher : 90.
+		
 		
 		// Ecrire une PROCEDURE qui calcule la MOYENNE des valeurs du tableau
 		
-		int[] valeurs = new int[] { 1, 3, 5, 7, 3, 4, 2, 4, 22 };
+		int[] valeurs = new int[] { 1, 3, 5, 7, 3, 4, 2, 4, 22 }; // Le tableau de valeurs
 		
-		App.calculerMoyenne(valeurs);
+		App.calculerMoyenne(valeurs); // Appel de la fonction calculerMoyenne
 	}
 	
 	/**
@@ -41,8 +41,8 @@ public class App {
 	 */
 	public static void calculerMoyenne(int[] tableau) 
 	{
-		int somme = 0;
-		float moyenne;
+		int somme = 0; // la somme de toutes les valeurs du tableau
+		float moyenne; // La moyenne de toutes les valeurs du tableau
 		
 		for(int i = 0; i < tableau.length; i++) {
 			//somme = somme + tableau[i];
