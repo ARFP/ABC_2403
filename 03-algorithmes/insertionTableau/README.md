@@ -4,9 +4,9 @@ Soit tableau(10) un tableau de nombre entiers ; on suppose que le tableau est d�
 
 **Développez l'algorithme suivant :** 
 
-– Demander un nombre à insérer
-– Insérer le nombre dans la position adéquate (c à d, de telle façon à ce que le tableau reste ordonné)
-– Affiche le tableau après insertion du nouveau nombre 
+	– Demander un nombre à insérer
+	– Insérer le nombre dans la position adéquate (c à d, de telle façon à ce que le tableau reste ordonné)
+	– Affiche le tableau après insertion du nouveau nombre 
 
 **Exemple d’exécution :**
 
